@@ -52,8 +52,8 @@ a {
     color: rgb(227,245,1);
     text-transform: uppercase;
     background-color: rgb(18,31,49);
-    margin: 5px;
-    padding: 5px;
+    margin: 2.5px;
+    padding: 2.5px;
 }
 
 .main-nav a:hover {
@@ -104,7 +104,6 @@ a {
 }
 
 ul.skills-items {
-    padding: 0;
     text-align: center;
 }
 
@@ -251,11 +250,11 @@ a {
     }
 
     .main-nav {
-        text-align: center;
+        text-align: right;
     }
 
     .main-nav li {
-        margin: 15px;
+        margin: 15px 0 15px 15px;
         display: inline-block;
     }
 
