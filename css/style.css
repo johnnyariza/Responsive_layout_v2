@@ -1,80 +1,70 @@
 /* =================================
   Base Element Styles
 ==================================== */
-
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.4;
-	color: rgb(109,162,221);
-    background-color:  rgb(18,31,39);
+    font-family: 'Varela Round',sans-serif;
+    line-height: 1.4;
+    color: #6da2dd;
+    background-color: #121f27;
 }
 
-.skills h2,
-.portfolio h2,
-.contact h2 {
+.skills h2,.portfolio h2,.contact h2 {
     text-transform: uppercase;
     text-align: center;
 }
 
-
-
 /* =================================
   Header Styles
 ==================================== */
-
 .main-header {
-	padding-top: .5em;
-	margin-bottom: 3.0em;
+    padding-top: .5em;
+    margin-bottom: 3em;
 }
 
 .name {
-	font-size: 1.50em;
-	margin-top: 0;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.name a,
-.main-nav a {
-	display: block;
+.name a,.main-nav a {
+    display: block;
     text-align: center;
-	padding: 10px 0;
+    padding: 10px 0;
 }
 
 .main-nav a {
     font-size: .95em;
-    color: rgb(227,245,1);
+    color: #e3f501;
     text-transform: uppercase;
-    background-color: rgb(18,31,49);
+    background-color: #121f31;
     margin: 2.5px;
     padding: 2.5px;
 }
 
 .main-nav a:hover {
-    color: rgb(245,138,246);
+    color: #f58af6;
 }
-
-
 
 /* =================================
   Banner Styles
 ==================================== */
-
 .banner {
-	color: #fff;
-    margin-bottom: 3.0em;
+    color: #fff;
+    margin-bottom: 3em;
     text-align: center;
 }
 
 .profile-img {
     max-width: 75%;
-    margin-bottom: 1.0em;
+    margin-bottom: 1em;
 }
 
 .intro {
@@ -85,13 +75,12 @@ a {
 /* =================================
   Skills Styles
 ==================================== */
-
 .skills {
     text-align: center;
-    margin-bottom: 1.0em;
+    margin-bottom: 1em;
     padding: 20px 1em 40px;
     text-align: left;
-    background: rgb(18,31,39);
+    background: #121f27;
     transition: all .9s;
 }
 
@@ -110,37 +99,32 @@ ul.skills-items {
 .skills-items li {
     border-radius: 3px;
     display: inline-block;
-    background: rgb(245,138,246);
-    color: white;
+    background: #f58af6;
+    color: #fff;
     padding: 5px 15px;
     margin: 2px;
 }
 
 .skills-items li:nth-child(odd) {
-    background: rgb(227,245,1);
+    background: #e3f501;
 }
-
-
 
 /* =================================
   Portfolio Styles
 ==================================== */
-
 .portfolio {
-    background-color:  rgb(18,31,49);
-    padding-top: 3.0em;
+    background-color: #121f31;
+    padding-top: 3em;
     margin-bottom: 6.4em;
 }
 
-h2,
-h3,
-a {
-	color: rgb(256,100,100);
+h2,h3,a {
+    color: #ff6464;
     text-align: center;
 }
 
 .gallery img {
-	max-width: 90%;
+    max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -150,27 +134,24 @@ a {
 }
 
 .gallery {
-    padding-top: 3.0em;
-    padding-bottom: 1.0em;
+    padding-top: 3em;
+    padding-bottom: 1em;
 }
 
-.gallery p  {
-    font-size: 0.95em;
+.gallery p {
+    font-size: .95em;
     padding-right: 1em;
     padding-left: 1em;
     text-align: center;
-    padding-bottom: 2.0em;
+    padding-bottom: 2em;
 }
-
-
 
 /* =================================
   Contact Styles
 ==================================== */
-
 .contact {
     text-align: center;
-    background-color:  rgb(18,31,39);
+    background-color: #121f27;
 /*    padding-top: 3.0em;*/
     margin-bottom: 9em;
 }
@@ -182,7 +163,7 @@ a {
 }
 
 .contact-info li {
-    color: rgb(227,245,1);
+    color: #e3f501;
     padding: 5px;
 }
 
@@ -190,15 +171,12 @@ a {
     font-style: italic;
 }
 
-
-
 /* =================================
   Footer Styles
 ==================================== */
-
 .main-footer {
     padding-bottom: 35px;
-    border-top: solid 1px white;
+    border-top: solid 1px #fff;
 }
 
 .footer-name {
@@ -215,42 +193,35 @@ a {
     display: none;
 }
 
-
-
 /* =================================
   Layout Containers
 ==================================== */
-
 .main-container {
-	padding-left: 5%;
-	padding-right: 5%;
-	margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
 }
-
-
 
 /* =================================
   Media Queries
 ==================================== */
-
 @media (min-width: 768px) {
-
     .main-container {
         padding-left: 1em;
         padding-right: 1em;
-		max-width: 1150px;
+        max-width: 1150px;
     }
-    
+
     body {
         padding-top: 1.5em;
-	}
+    }
 
     .name {
         margin-bottom: 0;
     }
 
     .main-nav {
-        text-align: right;
+        text-align: center;
     }
 
     .main-nav li {
@@ -259,13 +230,13 @@ a {
     }
 
     .main-nav a {
-        background-color: rgb(18,31,39);
+        background-color: #121f27;
     }
 
     .banner {
-        margin-bottom: 3.0em;
+        margin-bottom: 3em;
     }
-    
+
     .intro {
         margin: 0;
         font-size: 1.22em;
@@ -275,12 +246,12 @@ a {
     }
 
     .profile-img {
-        margin-bottom: 3.0em;
-		margin-left: 1%;
+        margin-bottom: 3em;
+        margin-left: 1%;
         max-width: 38%;
         float: right;
     }
-    
+
     .gallery li {
         display: inline-block;
         width: 50%;
@@ -298,14 +269,14 @@ a {
     .contact-info {
         font-size: 1.15em;
     }
-    
+
     .back-to-top {
         display: none;
     }
 
     .footer-nav {
         display: inline-block;
-        float: right
+        float: right;
     }
 
     .footer-name {
@@ -317,31 +288,27 @@ a {
         padding: 5px;
         font-size: 1.17em;
         margin-left: 15px;
-        margin-top: .8em
+        margin-top: .8em;
     }
 
-	/*---- Float clearfix ----*/
-
-		.clearfix::after {
-			content: " ";
-			display: table;
-			clear: both;
-		}
+    /*---- Float clearfix ----*/
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
 }
 
-
-
 @media (min-width: 1024px) {
-    
     .secondary-container {
         max-width: 1150px;
         margin: 0 auto;
     }
-    
+
     .main-header {
-        padding-bottom: 4.0em;
+        padding-bottom: 4em;
     }
-    
+
     .name {
         float: left;
     }
@@ -351,9 +318,9 @@ a {
     }
 
     .banner {
-        margin-bottom: 4.0em;
+        margin-bottom: 4em;
     }
-    
+
     .intro {
         font-size: 1.8em;
         text-align: left;
@@ -362,33 +329,33 @@ a {
     }
 
     .profile-img {
-		margin-bottom: 4.0em;
+        margin-bottom: 4em;
         margin-left: 2em;
         float: right;
     }
 
     .skills {
         border-bottom: 3px solid #fff;
-        margin-bottom: 4.0em;
+        margin-bottom: 4em;
     }
-    
+
     .tahdah {
         display: block;
         text-align: center;
-        color: rgb(18,31,39);
+        color: #121f27;
         margin: 0 auto;
     }
-    
+
     .skills p {
-        font-size: 1.4em;  
+        font-size: 1.4em;
     }
-    
+
     .skills:hover {
-        color: rgb(18,31,49);
+        color: #121f31;
         background: #fff;
-        border-color: rgb(245,138,246);
+        border-color: #f58af6;
     }
-    
+
     .gallery li {
         width: 33.3333%;
     }
@@ -400,17 +367,15 @@ a {
     .contact p {
         font-size: 1.8em;
     }
-    
-    .contact-info  {
+
+    .contact-info {
         font-size: 1.5em;
     }
-    
+
     /* ---- Float clearfix ----*/
-
     .clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
+        content: " ";
+        display: table;
+        clear: both;
+    }
 }
